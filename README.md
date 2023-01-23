@@ -115,12 +115,11 @@ else:
 
 ```
 ## Sample Input and Output:
+![search algorithm1](https://user-images.githubusercontent.com/119122478/214119076-149e8df3-a52b-46e0-8a5f-d96b78959fe6.png)
 
-![](search%20algorithm1.png)
-![](serach%20algorithm2.png)
-![](search%20algorithm3.png)
+![serach algorithm2](https://user-images.githubusercontent.com/119122478/214119121-5ae1a57e-0ebb-4ffd-a959-e2050a839367.png)
 
-
+![search algorithm3](https://user-images.githubusercontent.com/119122478/214119144-6efe4d70-ffaa-4b22-9b90-1373a337f71d.png)
 
 
 
