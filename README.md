@@ -1,14 +1,19 @@
 # Linear Search and Binary search
 ## Aim:
 To write a program to perform linear search and binary search using python programming.
+
 ## Equipment’s required:
 1.	Hardware – PCs
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
+3.	
 ## Algorithm:
+
 ## Linear Search:
+
 1.	Start from the leftmost element of array[] and compare k with each element of array[] one by one.
 2.	If k matches with an element in array[] , return the index.
 3.	If k doesn’t match with any of elements in array[], return -1 or element not found.
+4.	
 ## Binary Search:
 1.	Set two pointers low and high at the lowest and the highest positions respectively.
 2.	Find the middle element mid of the array ie. arr[(low + high)/2]
@@ -16,10 +21,11 @@ To write a program to perform linear search and binary search using python progr
 4.	If x > mid, compare x with the middle element of the elements on the right side of mid. This is done by setting low to low = mid + 1.
 5.	Else, compare x with the middle element of the elements on the left side of mid. This is done by setting high to high = mid - 1.
 6.	Repeat steps 2 to 5 until low meets high
+7.	
 ## Program:
-i)	#Use a linear search method to match the item in a list.
-```
-''' 
+
+i)Use a linear search method to match the item in a list.
+``` 
 Program for linear search method to match the item in a list
 Developed by: Nithyaa sri S S
 RegisterNumber: 22008434
@@ -40,10 +46,10 @@ if(result ==-1):
 else:
     print(array)
     print("Element found at index: ", result)
+```
 
-```
-ii)	# Find the element in a list using Binary Search(Iterative Method).
-```
+ii) Find the element in a list using Binary Search(Iterative Method).
+
 ''' 
 Program to find the element in a list using Binary Search(Iterative Method)..
 Developed by:
@@ -73,14 +79,10 @@ if(result == -1):
 else:
     print(array)
     print("Element found at index: ",  result)
-
-# use the binary search function to find the item in the list
-
-# use if-else to print sorted array and "Element not found" if the item is not present in the list otherwise print sorted array and "Element found at index: ", result
-
 ```
-iii)	# Find the element in a list using Binary Search (recursive Method).
-''' 
+
+iii) Find the element in a list using Binary Search (recursive Method).
+
 Program to find the element in a list using Binary Search (recursive Method).
 Developed by: your name
 RegisterNumber: 
@@ -109,12 +111,10 @@ if(result ==-1):
 else:
     print(arr)
     print("Element found at index: ", result)
-# use the binary search function to find the result
+ ```
 
-# use if-else to print sorted array and "Element not found" if the item is not present in the list otherwise print sorted array and "Element found at index: ", result```
-
-```
 ## Sample Input and Output:
+
 ![search algorithm1](https://user-images.githubusercontent.com/119122478/214119076-149e8df3-a52b-46e0-8a5f-d96b78959fe6.png)
 
 ![serach algorithm2](https://user-images.githubusercontent.com/119122478/214119121-5ae1a57e-0ebb-4ffd-a959-e2050a839367.png)
